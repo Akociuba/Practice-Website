@@ -16,12 +16,17 @@ body{
 
 img{
     width: 100%;
-    height: 200px;
+    height: 1000px;
+}
+#doom{
+    font : bold 15px "Trebuchet MS", cursive;
+    font-size: large;
+
 }
 
 .happy{
-    background-color: rebeccapurple;
-    color: lightpink;
+    background-color: grey;
+    color: lightskyblue;
     font-weight: bold;
     font-size: 40px;
     font-family: "Comic Sans MS", cursive;
@@ -72,4 +77,10 @@ li+li{
         grid-column: span 1;
         grid-row: span 1;
     }
+
+}
+input[type = "text"]{
+    background-color: papayawhip;
+    color: darkslategrey;
+    font-weight: bold;
 }
