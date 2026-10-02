@@ -1,0 +1,75 @@
+body{
+    background-color: darkslategrey;
+    color: papayawhip;
+}
+#amit{
+    background-color: red;
+    color: navy;
+}
+
+#jonothan{
+    border: 10px solid whitesmoke;
+    border-style: dotted;
+    margin: 5px;
+    padding: 40px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.happy{
+    background-color: rebeccapurple;
+    color: lightpink;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a[href *= "frhsd.com"]{
+    color: limegreen;
+}
+
+ul>li:first-child{
+    color: hotpink;
+}
+
+a:visited{
+    color: beige;
+}
+
+li:hover{
+    background-color: navy;
+}
+div {
+    li {
+    padding-left: max(100px, 100px);
+    }
+}
+li+li{
+    margin-left: 20px;
+}
+#mason{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto auto;
+    gap: 12px;
+    img{
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+    p{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    a{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}

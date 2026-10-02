@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src = "index.js"></script>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>First Website</title>
 </head>
-<body>
+<body onload = "loading()">
     <p>Hello World!?</p>
+    <div>
     <ol>
         <li>sleep</li>
         <li>play minecraft</li>
@@ -13,9 +16,21 @@
     </ol>
     <h3>3 Fun Facts</h3>
     <ul>
-        <li>I am a giants fan >:P</li>
-        <li>I have a friend named jonathan</li>
-        <li>I live in NJ</li>
+        <li class = "happy">I am a giants fan :(</li>
+        <li id = "jonothan" class = "happy">I have a friend named jonathan</li>
+        <li class = "happy">I live in NJ</li>
     </ul>
+    </div>
+    <a id = "amit" href = "https://www.frhsd.com/"> frhsd.com </a>
+    <div id = "mason">
+        <img src = "https://i.redd.it/y27w89o4lznh1.jpg">
+        <p>So we beat on, boats against the current, borne back ceaselessly into the past. </p>
+        <a href = "#jonothan"> internal link </a>
+        <a href = "https://gist.github.com/MattIPv4/045239bc27b16b2bcf7a3a9a4648c08a"> external link </a>
+    </div>
+    <button onclick = "clicked()"> Button </button>
+    <input type = "text">
+    <button onclick = "button1()" id = button1> 0 </button>
+    <button onclick = "button2()" id = button2> 0 </button>
 </body>
 </html>
